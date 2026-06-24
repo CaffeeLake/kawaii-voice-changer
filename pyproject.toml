@@ -31,7 +31,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.4.3",
+    "pytest>=9.0.3",
     "pytest-cov>=4.1.0",
     "pytest-qt>=4.2.0",
     "ruff>=0.1.8",
@@ -45,7 +45,7 @@ docs = [
 ]
 build = [
     "pyinstaller>=6.2.0",
-    "wheel>=0.42.0",
+    "wheel>=0.46.2",
     "build>=1.0.3",
 ]
 
@@ -75,7 +75,7 @@ packages = ["src/kawaii_voice_changer"]
 
 [tool.uv]
 dev-dependencies = [
-    "pytest>=7.4.3",
+    "pytest>=9.0.3",
     "pytest-cov>=4.1.0",
     "pytest-qt>=4.2.0",
     "ruff>=0.1.8",
@@ -85,7 +85,7 @@ dev-dependencies = [
     "sphinx>=7.2.6",
     "sphinx-rtd-theme>=2.0.0",
     "pyinstaller>=6.2.0",
-    "wheel>=0.42.0",
+    "wheel>=0.46.2",
     "build>=1.0.3",
     "pre-commit>=3.5.0",
 ]
